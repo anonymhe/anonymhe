@@ -15,6 +15,9 @@ Here are some ideas to get you started:
 - ⚡ Fun fact: ...
 --->
 
+# bro I just has tons of homework on my to-do list and I have no time to do my own thing ｡:ﾟ(;´∩`;)ﾟ:｡
+> updated: 2023.06.06
+
 hey, welkin here. **ヾ(•ω•`)o**
 
 I'm just started to learn how to code so this exist. **(。・ω・。)**
