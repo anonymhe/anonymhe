@@ -15,7 +15,10 @@ Here are some ideas to get you started:
 - ⚡ Fun fact: ...
 --->
 
-# bro I just has tons of homework on my to-do list and I have no time to do my own thing ｡:ﾟ(;´∩`;)ﾟ:｡
+# ｡:ﾟ(;´∩`;)ﾟ:｡
+
+bro I just has tons of homework on my to-do list and I have no time to do my own thing 
+
 > updated: 2023.06.06
 
 hey, welkin here. **ヾ(•ω•`)o**
