@@ -11,4 +11,4 @@ nick: arc/welki/FlameC
 
 social: [GHPages](https;//flamechart.github.io/)=>[Personal Site](https://welkin.space)
 
-![](https://wakatime.com/share/@b1cd697f-bbcd-4389-83a2-fe3b452e18fb/e5b40980-e2bf-4c83-b008-8cd8b3cbbab1.svg)
+![Metrics](/github-metrics.svg)
