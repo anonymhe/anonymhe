@@ -1,10 +1,9 @@
 name: Metrics
 on:
   # Schedule daily updates
-  schedule: [{cron: "0 0 * * *"}]
+  schedule: [{cron: "50 23 * * *"}]
   # Run workflow manually
   workflow_dispatch:
-  # (optional) Run workflow when pushing on master/main
   push: {branches: ["master", "main"]}
 jobs:
   github-metrics:
@@ -18,16 +17,19 @@ jobs:
         with:
           base: header
           config_display: large
-          config_order: base.header, isocalendar, habits, followup, languages, wakatime, stars, achievements
+          config_order: base.header, isocalendar, habits, followup, languages, wakatime, stars, activity
           config_padding: 5%, 16 + 5%
           config_timezone: Asia/Taipei
           optimize: css, xml
-          plugin_achievements: yes
-          plugin_achievements_threshold: X
+          plugin_activity: yes
+          plugin_activity_limit: 5
+          plugin_activity_days: 0
+          plugin_activity_filter: issue, pr, release, fork, review, ref/create
           plugin_followup: yes
           plugin_followup_indepth: yes
           plugin_followup_sections: user
           plugin_habits: yes
+          plugin_habits_charts: yes
           plugin_habits_days: 30
           plugin_habits_from: 256
           plugin_isocalendar: yes
@@ -35,7 +37,7 @@ jobs:
           plugin_languages_details: bytes-size, percentage
           plugin_languages_threshold: 2%
           plugin_stars: yes
-          plugin_stars_limit: 3
+          plugin_stars_limit: 6
           plugin_wakatime: yes
           plugin_wakatime_sections: time, projects-graphs, languages, languages-graphs, editors
           plugin_wakatime_token: ${{ secrets.WAKATIME_TOKEN }}

@@ -4,11 +4,4 @@
 >
 > AI is the future, but u need to learn how to **work with AI**, not **manipulated by AI**.
 
-- 🏫 I'm a student @ Minjiang University ~~this campus is bad, dont pick this one :(~~
-- 📫 How to reach me: [flamechart@hotmail.com](mailto:flamechart@hotmail.com)
-
-nick: arc/welki/FlameC
-
-social: [GHPages](https;//flamechart.github.io/)=>[Personal Site](https://welkin.space)
-
 ![Metrics](/github-metrics.svg)
